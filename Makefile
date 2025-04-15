@@ -1,6 +1,8 @@
 up:
 	docker-compose up
 build:
+	docker-compose build
+build-no-cache:
 	docker-compose build --no-cache --force-rm
 remake:
 	@make destroy
